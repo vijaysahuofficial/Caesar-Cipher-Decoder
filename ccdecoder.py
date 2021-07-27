@@ -1,3 +1,5 @@
+#! /usr/bin/python3
+
 import string
 alpha = string.ascii_lowercase 
 
@@ -16,7 +18,7 @@ def decrypt(x,y):
 def userinput():
     a = input("Enter the Encrypted Code \n>>>>").lower()
     key = 0
-    while key < 26:
+    while key < 27:
         decrypt(a, key)
         key += 1
 userinput()    
